@@ -131,6 +131,7 @@
     <Content Include="HtmlPage5.html" />
     <Content Include="HtmlPage6.html" />
     <Content Include="HtmlPage7.html" />
+    <Content Include="HtmlPage8.html" />
     <Content Include="images\10e0c261-9280-472e-843d-92c167c4ed56.jpg" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular-route.min.js" />
@@ -175,7 +176,9 @@
     <Content Include="Templates\courses.html" />
     <Content Include="Templates\home.html" />
     <Content Include="Templates\studentDetails.html" />
+    <Content Include="Templates\studentParent.html" />
     <Content Include="Templates\students.html" />
+    <Content Include="Templates\studentsSearch.html" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -225,6 +228,7 @@
       <DependentUpon>StudentService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="studentTotals.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

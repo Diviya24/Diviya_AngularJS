@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html ng-app="Demo">
+<head>
+    <title></title>
+    <script src="angular.min.js"></script>
+    <script src="Script.js"></script>
+</head>
+<body>
+    <div ng-controller="countryController as countryCtrl">
+        {{countryCtrl.name}}
+        <div ng-controller="stateController as stateCtrl">
+            {{countryCtrl.name}} - {{stateCtrl.name}}
+            <div ng-controller="cityController as cityCtrl">
+                {{countryCtrl.name}} - {{stateCtrl.name}} - {{cityCtrl.name}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
